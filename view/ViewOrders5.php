@@ -1,6 +1,5 @@
 <?php
-//echo "$tireqty";
-//echo "$oilqty";
+
 require('../page_5.inc');
 
 class OrderformPage extends Page
@@ -10,10 +9,7 @@ class OrderformPage extends Page
         'Buzzword Compliance' => 'buzzword.php',
         'Mission Statements' => 'mission.php'
     );
-// var $tireqty ;
-// var $oilqty ;
-// var $sparkqty ;
-// var $address ;
+
     function Display_1($tireqty)
     {
         //$this->tireqty=$tireqty ;
@@ -42,13 +38,6 @@ class OrderformPage extends Page
 
     function spisok()
     {
-        // Создать короткие имена переменных
-        $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
-        $servername = "localhost";
-        $database = "lab3";
-        $username = "root";
-        $password = "";
-
         include_once("../db.php");
         $query_1 = "select zakaz.id, zakaz.fio, zakaz.adress, zakaz.data, tovar.id, tovar.tiregty, tovar.oilgty, tovar.sparkgty FROM zakaz, tovar where  zakaz.id=tovar.id order by zakaz.data";
         $result_1 = mysqli_query($connect, $query_1);
@@ -91,8 +80,7 @@ $services = new OrderformPage();
 $content = 'cddc';
 $services->SetContent($content);
 $services->SetTitle('Лабораторная работа по теме: ООП на РНР');
-$services->Setnazvanie('Лабораторные работы по курсу Разработка интернет приложений в сфере коммерциии посредством PHP и MySQL <br> Студента группы ПИ-83: Иванова Виталия Владимировича <br> Проверил: к.т.н. доц. Назимов А.С.');
+$services->Setnazvanie('Лабораторные работы по курсу Разработка интернет приложений в сфере коммерциии посредством PHP и MySQL <br> Студента группы ПИс-161: Шмуйдина Ильи Николаевича <br> Проверил: к.т.н. доц. Назимов А.С.');
 //$services -> Display_1($tireqty);
 $services->Display();
-// $services -> zakaz($tireqty, $oilqty, $sparkqty, $address, $DOCUMENT_ROOT, $fio);
 ?>

@@ -110,8 +110,6 @@ $services = new OrderformPage();
 $content = 'cddc';
 $services->SetContent($content);
 $services->SetTitle('Лабораторная работа по теме: ООП на РНР');
-$services->Setnazvanie('Лабораторные работы по курсу Разработка интернет приложений в сфере коммерциии посредством PHP и MySQL <br> Студента группы ПИ-83: Иванова Виталия Владимировича <br> Проверил: к.т.н. доц. Назимов А.С.');
-//$services -> Display_1($tireqty);
+$services->Setnazvanie('Лабораторные работы по курсу Разработка интернет приложений в сфере коммерциии посредством PHP и MySQL <br> Студента группы ПИс-161: Шмуйдина Илья Николаевича <br> Проверил: к.т.н. доц. Назимов А.С.');
 $services->Display($tireqty, $oilqty, $sparkqty, $address, $DOCUMENT_ROOT, $fio);
-// $services -> zakaz($tireqty, $oilqty, $sparkqty, $address, $DOCUMENT_ROOT, $fio);
 ?>

@@ -69,7 +69,7 @@ $query_2="INSERT INTO tovar (tiregty,oilgty,sparkgty) VALUES ('$tireqty','$oilqt
 mysqli_query ($connect, $query_2);
 echo '<p>Заказ сохранен.</p>';
 ?>
-<a href="../view/ViewOrders4.php"> Интерфейс персонала для просмотра файла заказов </a>
+<a href="../view/ViewOrders3.php"> Интерфейс персонала для просмотра файла заказов </a>
 </body>
 </html>
 <?php
