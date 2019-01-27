@@ -29,7 +29,7 @@ class OrderformPage extends Page
 }
 $services = new OrderformPage();
 $content = '
-<form action="../processorders/ProcessOrder5.php" method=post>
+<form action="../process/ProcessOrder5.php" method=post>
 <table border=0>
 <tr bgcolor=#cccccc>
   <td width=150>Товар</td>

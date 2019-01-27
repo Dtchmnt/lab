@@ -9,7 +9,7 @@ require('../header.inc');
 <h1>Лабораторная работа № 1 по теме передача данных из формы в основную программу и их последующая обработка</h1>
 <h2>Автозапчасти от Боба</h2>
 <h3>Форма заказа</h3>
-<form action="/processorders/ProcessOrder.php" method=post>
+<form action="/process/ProcessOrder.php" method=post>
     <table border=0>
         <tr bgcolor=#cccccc>
             <td width=150>Товар</td>

@@ -14,7 +14,7 @@ $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
 <h2>Автозапчасти от Боба</h2>
 <h3>Заказы клиентов</h3>
 <?php
-@  $fp = fopen("../processorders/orders.txt", 'r');
+@  $fp = fopen("../process/orders.txt", 'r');
 if (!$fp)
 {
     echo '<p><strong>Нет ожидающих заказов.'

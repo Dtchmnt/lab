@@ -8,7 +8,7 @@ class Page
     var $title = 'TLA Consulting Pty Ltd';
     var $keywords = 'TLA Consulting, Three Letter Abbreviation, 
                    some of my best friends are search engines';
-    var $buttons = array('Форма заказа' => '/formorders/OrderForm5.php',
+    var $buttons = array('Форма заказа' => '/form/OrderForm5.php',
         'Контакты' => 'contact.php4',
         'Услуги' => 'services.php',
         'Карта сайта' => 'map.php4'
@@ -124,13 +124,13 @@ class Page
         </table>
         <table border=1 width=100%>
         <td width=30% align=left valign=top>
-            <a href="/formorders/OrderForm.php"> Первая лабораторная работа </a>
+            <a href="/form/OrderForm.php"> Первая лабораторная работа </a>
             <br><br>
-            <a href="/formorders/OrderForm2.php"> Вторая лабораторная работа </a>
+            <a href="/form/OrderForm2.php"> Вторая лабораторная работа </a>
             <br><br>
-            <a href="/formorders/OrderForm3.php"> Третья лабораторная работа </a>
+            <a href="/form/OrderForm3.php"> Третья лабораторная работа </a>
             <br><br>
-            <a href="/formorders/OrderForm4.php"> Четвертая лабораторная работа </a>
+            <a href="/form/OrderForm4.php"> Четвертая лабораторная работа </a>
             <br><br>
             <a href="/index_5.php"> Пятая лабораторная работа </a>
             <br><br>

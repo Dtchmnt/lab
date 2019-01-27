@@ -6,7 +6,7 @@ require('../header.inc');
 <?php
 //Считывание всего файла
 //Каждый заказ становится элементом массива
-$orders= file("../processorders/orders_4.txt");
+$orders= file("../process/orders_4.txt");
 // Подсчет количества заказов, хранящихся в массиве
 $number_of_orders = count($orders);
 echo "$number_of_orders";

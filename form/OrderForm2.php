@@ -9,7 +9,7 @@ require('../header.inc');
 <h1>Лабораторная работа № 2 по теме сохранение и востановление данных посредством текстовых файлов</h1>
 <h2>Автозапчасти от Боба</h2>
 <h3>Форма заказа</h3>
-<form action="/processorders/ProcessOrder2.php" method=post>
+<form action="/process/ProcessOrder2.php" method=post>
     <table border=0>
         <tr bgcolor=#cccccc>
             <td width=150>Товар</td>
